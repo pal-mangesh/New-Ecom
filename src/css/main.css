@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+h6 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.h7 {
+    font-size: 0.90rem;
+    letter-spacing: 1px;
+}
+
+.hb1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hb2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.hb3 {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.hb4 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.hb5 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.-max-w-1366 {
+    max-width: 1366px;
+}
+
+input[type=text] {
+    border: 1px solid #F59E0B;
+    background-color: #1F2937;
+    border-radius: 50px;
+    width: 30rem;
+    margin: 8px;
+    height: 50px;
+    padding-left: 10px;
+    color: white;
+}
+
+.form {
+    border: 1px solid #F59E0B;
+    background-color: #e4c38c;
+    border-radius: 50px;
+    width: 30rem;
+    margin: 8px;
+    height: 50px;
+    padding-left: 10px;
+    color: white;
+}
+
+.button-style {
+    background-color: #F59019;
+    background-image: -webkit-linear-gradient(160deg, #F59019 10%, #2759AB 5%);
+}
+
+.HeroBG-style {
+    background-color: #F59019;
+    background-image: -webkit-linear-gradient(160deg, #F59019 10%, #2759AB 5%);
+}
+
+.heading {
+    color: #F59019;
+    font-size: 1.5rem;
+}
+
+.main-text {
+    color: #F59019;
+}
+
+.bgcol {
+    background-color: #2759AB;
+}
