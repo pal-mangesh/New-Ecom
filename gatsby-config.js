@@ -1,33 +1,27 @@
 module.exports = {
     siteMetadata: {
-        title: "Loan Site",
+        title: "E-com site",
         mainMenu: [{
                 title: "Home",
                 link: "/",
             },
+
             {
-                title: "Why Us",
-                link: "/why Us",
-            },
-            {
-                title: "Criteria",
-                link: "/criteria",
-            },
-            {
-                title: "APR",
-                link: "/apr",
-            },
-            {
-                title: "Blog",
+                title: "Blogs",
                 link: "/blogs",
             },
             {
-                title: "Contact Us",
-                link: "/contact",
+                title: "About Us",
+                link: "/About Us",
             },
             {
-                title: "Apply",
-                link: "/apply",
+                title: "FAQs",
+                link: "/criteria",
+            },
+
+            {
+                title: "Contact Us",
+                link: "/contact",
             },
         ],
     },

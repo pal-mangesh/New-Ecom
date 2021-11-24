@@ -13,14 +13,11 @@ export interface BlogSec {}
 export default function HomePageBlogSec(props: BlogSec): ReactElement | null {
   return (
     <>
-      <div className="-max-w-1366 mx-auto  pt-20   ">
-        <Heading position="center">
-          <h3 className="text-center ">NEWS & UPDATES</h3>
-        </Heading>
-        <h6 className="text-gray-600 flex pb-20 pt-2  justify-center text-center">
-          Latest From Our Blog
-        </h6>
-        <div className="flex justify-items-center  flex-row">
+      <div className="-max-w-1366 mx-auto p-8 pt-32 text-center  w-full">
+        <div className="text-center w-full border-b pb-4 pt-8">
+          New & Update
+        </div>
+        <div className="flex justify-items-center pt-20  flex-row">
           <div className="w-1/3 flex flex-col  justify-center ">
             <div className="flex justify-center">
               <img src={blog1} className="w-4/5 flex justify-center " />
@@ -73,8 +70,6 @@ export default function HomePageBlogSec(props: BlogSec): ReactElement | null {
       </div>
 
       <div className="-max-w-1366 mx-auto  pt-10 pb-20  ">
-        
-        
         <div className="flex justify-items-center  flex-row">
           <div className="w-1/3 flex flex-col  justify-center ">
             <div className="flex justify-center">
